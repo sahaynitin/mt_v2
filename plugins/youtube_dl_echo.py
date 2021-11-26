@@ -3,7 +3,7 @@ logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
-
+import yt-dlp
 import os
 import re
 import json
@@ -121,7 +121,7 @@ async def echo(bot, update):
                 url = url[o:o + l]
     if Config.HTTP_PROXY != "":
         command_to_exec = [
-            "youtube-dl",
+            "yt-dlp",
             "--no-warnings",
             "--youtube-skip-dash-manifest",
             "-j",
@@ -130,7 +130,7 @@ async def echo(bot, update):
         ]
     else:
         command_to_exec = [
-            "youtube-dl",
+            "yt-dlp",
             "--no-warnings",
             "--youtube-skip-dash-manifest",
             "-j",
