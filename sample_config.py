@@ -25,7 +25,7 @@ class Config(object):
     # chunk size that should be used with requests
     CHUNK_SIZE = 128
 
-    # Generate screenshots for file after uploading
+    # Generated screenshots for file after uploading
     # Defaults to True
     SCREENSHOTS = os.environ.get("SCREENSHOTS", "True")
 
