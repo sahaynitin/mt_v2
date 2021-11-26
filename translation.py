@@ -76,3 +76,4 @@ class Translation(object):
     SOMETHING_WRONG = "<code>Something Wrong. Try again.</code>"
     FORCE_SUBSCRIBE_TEXT = "<code>Please Join My Updates Channel for using me 😌😉....</code>"
     FREE_USER_LIMIT_Q_SZE = "Sorry Friend, You Can Request only 1 Video Per {} minutes. Please try again after {} seconds later."
+    REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
