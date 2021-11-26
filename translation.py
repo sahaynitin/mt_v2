@@ -3,13 +3,13 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-<b>Hey {} 
+<b>Hey<b> {} </b>
 
-<b>I am Telegram Most Powerful Url Uploader Bot
+<b>I am Telegram Most Powerful Url Uploader Bot</b>
 
-<b>I can Upload Any Link in File or Video
+<b>I can Upload Any Link in File or Video</b>
 
-<b>Use Help Command to Know How to Use me
+<b>Use Help Command to Know How to Use me</b>
 
 <b>Made With 💕 By</b><b> @Tellybots_4u</b>
 """
@@ -31,7 +31,7 @@ class Translation(object):
     ABOUT_TEXT = """
  **🤖 <b>Bot :** URL Uploader</b>\n
  **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
- **👥 <b>Channel :** [Fayas Noushad](https://telegram.me/tellybots_4u)</b>\n
+ **👥 <b>Channel :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
  **❄️ <b>Credits :** Everyone in this journey</b>\n
  **🍴 <b>Source :** [Click here](https://t.me/tellybots_digital)</b>\n
  **📝 <b>Language :** [Python3](https://python.org)</b>\n
