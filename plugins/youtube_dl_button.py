@@ -9,7 +9,6 @@ import json
 import os
 import shutil
 import time
-import yt-dlp
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
