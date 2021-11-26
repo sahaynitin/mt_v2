@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-<b>Hey<b> {} </b>
+<b>Hey</b><b> {} </b>
 
 <b>I am Telegram Most Powerful Url Uploader Bot</b>
 
